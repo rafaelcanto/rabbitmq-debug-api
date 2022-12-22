@@ -1,8 +1,8 @@
 import express from 'express'
 import { Router, Request, Response } from 'express';
 import client, { Connection } from 'amqplib'
-import * as dotent from "dotenv"
-dotent.config()
+import * as dotenv from "dotenv"
+dotenv.config()
 
 async function main() {
 
